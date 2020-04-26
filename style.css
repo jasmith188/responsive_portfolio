@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #f1f1f1;
+  background-color: black;
   padding: 20px;
   font-family: Arial;
 }
@@ -19,48 +19,22 @@ h1 {
   word-break: break-all;
 }
 
-.row {
-  margin: 8px -16px;
-}
-
-/* Add padding BETWEEN each column (if you want) */
-.row,
-.row > .column {
-  padding: 8px;
-}
-
-/* Create four equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 25%;
-}
-
-/* Clear floats after rows */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 
 /* Content */
 .content {
-  background-color: white;
+  background-color: rgb(44, 44, 44);
   padding: 10px;
+  border-radius: 15px 15px 15px 15px;
 }
+.bioPicture {
+  margin-top: 80px;
+}
+ .links {
+   margin-top: 250px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 35px;
+ }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 900px) {
-  .column {
-    width: 50%;
-  }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-  }
-}
 
 html,body {
   height: 100%;
