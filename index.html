@@ -1,77 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- This is a Header -->
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" href="responsiveportfolio.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
 </head>
-<!-- This is the Navabr with 3 links and a dropbox -->
+
 <body>
-  <div>
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-      <span class="navbar-brand">James Smith</span>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav ml-auto">
-          <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link" href="C:\Users\acer\Documents\UCF\Homework\responsive_portfolio\portfolio.html">Portfolio</a>
-          <a class="nav-item nav-link" href="C:\Users\acer\Documents\UCF\Homework\responsive_portfolio\contact.html">Contact</a>
+
+    <!-- <nav class="navbar navbar-expand-lg bg-dark">
+        <a class="navbar-brand">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#aboutMe" class="nav-link">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#portfolio" class="nav-link">Portfolio</a>
+                </li>
+            </ul>
         </div>
-      </div>
-    </nav>
-  </div>
-<!-- This is my About me container-->
-  <div class="container float-left">
-    <h1>About Me</h1>
-    <div class="row">
+    </nav> -->
+
+
+
+    <div class="wrapper">
+        <!-- wrapper div starts -->
+
+        <div class="fixed-bg bg-1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <a href="#home" class="nav-link">Home</a>
+                    </div>
+                    <div class="col-sm-4">
+                        <a href="#aboutMe" class="nav-link">About Me</a>
+                    </div>
+                    <div class="col-sm-4">
+                        <a href="#portfolio" class="nav-link">Portfolio</a>
+                    </div>
+                </div>
+            </div>
+            <h1 id="home">Jimmy Smith's Portfolio </h1>
+
+        </div>
+
+
     </div>
-    <!-- This is my Home page portfolio picture-->
-    <div>
-      <img src="images/15440496_10100603520174377_5504416369092465832_o.jpg" class="rounded float-left" width=350 height="500">
+
+    <div class="scroll-bg">
+        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in dolor tempor, posuere mi id, eleifend
+            magna. Nulla at lectus magna. Etiam sodales arcu at lectus porttitor accumsan. Orci varius natoque
+            penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur id urna dolor. Orci varius
+            natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin et pharetra justo, quis
+            suscipit risus. Maecenas tincidunt efficitur ex in pharetra.</h3>
     </div>
-    <!-- This is my about me content-->
-    <p class="text-left col-sm-9">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos alias a nobis nulla
-      cupiditate aliquam pariatur, deserunt eligendi quis officiis odio? Nostrum voluptatem, assumenda voluptate placeat
-      in ex aut corporis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iusto, ex accusamus
-      numquam facere nemo laboriosam aut explicabo voluptatibus cupiditate non voluptates excepturi minus ipsam porro
-      atque molestias accusantium magni? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta eius molestiae
-      quisquam! Ad consequatur repudiandae distinctio aspernatur quia nihil assumenda sit, nisi suscipit libero
-      obcaecati temporibus nesciunt expedita, quod adipisci. Lorem ipsum dolor sit amet consectetur adipisicing elit. In
-      sequi magnam illo ipsam corporis numquam a dolorum et veniam, maxime harum vero excepturi fugit totam magni id
-      sint explicabo incidunt. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat blanditiis minus numquam
-      sapiente dolore deserunt incidunt recusandae porro maiores? Eius voluptas quaerat porro incidunt libero vero
-      quisquam. Earum, quis excepturi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit beatae eius
-      reiciendis! Porro ratione itaque, sequi optio asperiores in.</p>
+
+    <div class="fixed-bg bg-2">
+
+        <h1 id="aboutMe">About Me</h1>
 
 
-
-
-
-
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-      crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-      crossorigin="anonymous"></script>
-
-<!-- This is my footer-->
     </div>
-    <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
-      <div class="container text-center">
-        <small>Copyright 2020 &copy; Jimmy Smith's Portfolio</small>
-      </div>
-    </footer>
+
+    <div class="scroll-bg">
+        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in dolor tempor, posuere mi id, eleifend
+            magna. Nulla at lectus magna.</h3>
+    </div>
 
 
+    <div class="fixed-bg bg-3">
+        <!-- MAIN (Center website) -->
+
+
+
+
+        <h4>PORTFOLIO</h4>
+
+        <!-- Portfolio Gallery Grid -->
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="content">
+                    <img src="images/burger.jpg" alt="Mountains" style="width:100%">
+                    <h3>My Work</h3>
+                    <p>Lorem ipsum..</p>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="content">
+                    <img src="images/workdayscheduler.png" alt="Lights" style="width:100%">
+                    <h3>My Work</h3>
+                    <p>Lorem ipsum..</p>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="content">
+                    <img src="images/quiz.png" alt="Nature" style="width:100%">
+                    <h3>My Work</h3>
+                    <p>Lorem ipsum..</p>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="content">
+                    <img src="images/hopsgrapes.jpg" alt="Mountains" style="width:100%">
+                    <h3>My Work</h3>
+                    <p>Lorem ipsum..</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <div class="content">
+                    <img src="images/password.jpg" alt="Mountains" style="width:100%">
+                    <h3>My Work</h3>
+                    <p>Lorem ipsum..</p>
+                </div>
+            </div>
+            <div class="column">
+                <div class="content">
+                    <img src="images/notetaker.jpg" alt="Mountains" style="width:100%">
+                    <h3>My Work</h3>
+                    <p>Lorem ipsum..</p>
+                </div>
+            </div>
+            <div class="column">
+                <div class="content">
+                    <img src="images/infodoselogin.jpg" alt="Mountains" style="width:100%">
+                    <p>
+                        <img src="images/infodosemain.jpg" alt="Mountains" style="width:100%">
+                    </p>
+                    <h3>My Work</h3>
+                    <p>Lorem ipsum..</p>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- END MAIN -->
+
+
+
+        <!-- </div> wrapper div ends -->
+
+        <script src="https://code.jquery.com/jquery-3.5.0.min.js"
+            integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
 </body>
 
 </html>
