@@ -1,19 +1,54 @@
-Table of Contents
-Home Page: file:///C:/Users/acer/Documents/UCF/Homework/responsive_portfolio/responsive_portfolio.html
+ 
+# djhfhfhf
 
-Portfolio: file:///C:/Users/acer/Documents/UCF/Homework/responsive_portfolio/portfolio.html
-
-Contact: file:///C:/Users/acer/Documents/UCF/Homework/responsive_portfolio/contact.html
-
-
-General Info
-This project is Lorem ipsum generator
+## Description 
+Responsive Portfolio
 
 
-Technologies
-Project is created with
+## Table of Contents (Optional)
 
-Lorem version: 
-GetBootStrap version: 4.0
+
+
+* [Installation](#installation)
+* [Usage](#usage)
+* [Credits](#credits)
+* [License](#license)
+* [Badges](#badges)
+
+
+## Installation 
+Deployed on Heroku
+
+
+## Usage 
+MAking my portfolio viewable
+
+
+## Credits
+undefined
+
+
+## License
+MIT License
+
+---
+
+## Badges
+
+
+![GitHub license](https://img.shields.io/badge/license-jshstsgdbd-blue.svg)
+
+
+![GitHub Profile Picture](https://avatars3.githubusercontent.com/u/61388748?v=4)
+
+
+## Contributing
+undefined
+
+
+
+
+---
+© 2020 jasmith188 Jimmy Smith🏆 
 
 
